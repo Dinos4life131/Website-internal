@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Linux Libertine", "Georgia", "Times", serif;
+    background-color: #202122;
+    color: #e1e1e1;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #1a1a1b;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #404040;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 35px;
+    margin-right: 8px;
+}
+
+.tagline {
+    color: #a0a0a0;
+    font-size: 13px;
+}
+
+.search-bar {
+    padding: 6px;
+    background-color: #333;
+    color: #d9d9d9;
+    border: 1px solid #555;
+    border-radius: 4px;
+    margin-right: 8px;
+    width: 250px;
+}
+
+.search-button {
+    padding: 6px 12px;
+    background-color: #444;
+    border: 1px solid #555;
+    color: #d9d9d9;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.sidebar, .sidebar-right {
+    background-color: #1a1a1b;
+    padding: 15px;
+    width: 220px;
+    border: 1px solid #404040;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar nav ul li a {
+    color: #9da5b4;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sidebar nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #2a2a2b;
+    border: 1px solid #404040;
+    border-radius: 4px;
+    color: #d9d9d9;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.intro-content {
+    display: flex;
+    align-items: flex-start; /* Align text with the top of the image */
+}
+
+h1.title {
+    color: #79b8ff;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.article-summary {
+    flex: 1;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #333;
+    border: 1px solid #404040;
+    margin-right: 20px; /* Added margin between text and image */
+    color: #d9d9d9;
+}
+
+.infobox-container {
+    width: 300px;
+}
+
+.infobox {
+    width: 100%;
+    border: 1px solid #404040;
+    background-color: #1e1e1f;
+    color: #d9d9d9;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.infobox th, .infobox td {
+    padding: 8px;
+    border-bottom: 1px solid #404040;
+}
+
+.infobox th {
+    background-color: #2e2e2f;
+    text-align: center;
+    font-size: 14px;
+    color: #d9d9d9;
+}
+
+.infobox td {
+    background-color: #292929;
+}
+
+.infobox-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #404040;
+}
+
+.appearance {
+    color: #d9d9d9;
+    padding: 15px;
+    background-color: #292929;
+    border-radius: 4px;
+    border: 1px solid #404040;
+}
+
+.appearance-title {
+    color: #79b8ff;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.appearance label {
+    display: block;
+    margin-bottom: 10px;
+}
